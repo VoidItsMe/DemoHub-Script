@@ -7249,7 +7249,7 @@ loadstring(game:HttpGet(url))()
     print("Clicked")
 end)
 Section:NewButton("Mortem Metallum", "Runs a good script for Mortem Metallum", function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidItsMe/Roblox-Mortem-Metallum-script/main/Script?token=GHSAT0AAAAAABVL5OXRYDHA67MTP5ZEQM2OYVAQWTQ",true))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidItsMe/Roblox-Mortem-Metallum-script/main/Script",true))();
     print("Clicked")
 end)
 Section:NewButton("Adopt Me!", "Runs a good script for Adopt Me!", function()
